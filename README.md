@@ -1,2 +1,2 @@
 # All-My-Scripts
-🐱‍🏍 My all scripts I every made in one place
+🐱‍🏍 Some of my scripts I made in one place
