@@ -1,0 +1,5 @@
+click
+bs4
+urllib
+string
+subproccess

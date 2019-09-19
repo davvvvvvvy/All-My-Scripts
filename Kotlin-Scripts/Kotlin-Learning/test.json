@@ -1,0 +1,26 @@
+{
+
+
+    "project": [
+
+        { 
+            "name": "Kotlin JSON Parsing",
+            "version": "1.0.0.",
+            "author": "IPI",
+            "GitHub link": "https://github.com/ivanpilipovic"
+        }
+
+    ]
+
+    ,
+
+    "author": [
+        { 
+            "name": "Ivan",
+            "surname": "Pilipovic",
+            "age": 20
+        }
+    ]
+
+
+}
