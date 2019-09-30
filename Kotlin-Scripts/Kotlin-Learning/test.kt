@@ -48,3 +48,21 @@ private fun String.isDigit() {}
     if (System.getProperty("os.name").toLowerCase().indexOf("win") >= 0) {
         println("win")
     }
+
+
+
+import okhttp3.OkHttpClient
+import okhttp3.Request
+import okhttp3.Response
+import okhttp3.ResponseBody
+import kotlin.reflect.typeOf
+
+fun main () {
+    val client = OkHttpClient()
+
+    val request = Request.Builder().url("https://api.duckduckgo.com/?q=api&format=json&pretty=1").build()
+
+    val response = client.newCall(request).execute()
+    val data  = response.body().string()
+
+    val k = data
